@@ -1,0 +1,129 @@
+/*
+*{
+	border: 2px solid lightgrey;
+}
+*/
+/*
+body{
+	color: pink;
+}
+*/
+li a{
+	color: blue;
+}
+body {
+    background: #bdc3c7;
+}
+
+h1 {
+	font-family:'Lato', sans-serif;
+	text-align: center;
+	font-size: 50px;
+    color: navy;
+    margin-left: 20px;
+    border: 5px solid red;
+} 
+h1:hover {
+	color: yellow;
+}	
+p {
+	font-family: Arial;
+	color: blue;
+	font-family: Helvetica,Arial; 
+}
+h4 + ul{
+	border: 2px solid green;
+}
+h4{
+	text-transform: uppercase;
+}
+a[href="http://www.google.com"]{
+	background: lightblue;
+}
+a:visited {
+	color: gray;
+}
+ul:nth-of-type(2){
+	background: rgb(100,46,0,.1 );
+}
+.highlight {
+	color: yellow;
+}
+footer {
+	color: rgb(255,100,80);
+	background: red;
+}
+#love{
+	background: yellow;
+}
+#love:first-letter {
+	color: red;
+	font-size: 30px;
+}
+#checked{
+	text-decoration: line-through;
+}
+input:checked{
+	margin-left: 50px;
+}
+.one{
+	color:  black;
+}
+.one:first-letter {
+	color: red;
+	font-size: 50px;
+}
+span{
+	font-size: 1.30em;
+}
+.box{
+	width: 50%;
+	border: 2px solid blue;
+	padding-left: 50px;
+	margin: 20px 40px 50px  100px;
+}
+table{
+	margin: auto;
+}
+td{
+	width: 100px;
+	height: 100px;
+	/*background: orange; */
+}
+.vertical{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.horizontal{
+	border-top: 1px solid black;
+	border-bottom:  1px solid black;
+}
+h2{
+	text-align: center;
+}
+article{ margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+.img{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 10%;
+    height: auto;
+}
